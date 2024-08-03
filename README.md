@@ -77,23 +77,15 @@ A logged in user who is an admin can:
 
 ## Local development
 
+### For the frontend:
+
 To run this app in a local development environment:
 
 - Check that a recent version of Node is installed.
-- Clone the GitHub repo.
+- Clone the [GitHub repo](https://github.com/maaznonsola/Movie-Rental-App-Frontend-v2).
 - Run `npm install` at the level of the `package.json` file to install dependencies.
 - Run `npm start`.
 - The `.env.development` file should include: `REACT_APP_API_URL=http://localhost:3900/api` to point to the [Node/Express backend deployed on local](https://github.com/maaznonsola/Movie-Rental-App-Backend).
-
-## Local development with local, development backend Node application
-
-### For the frontend:
-
-- Check that a recent version of Node is installed.
-- Clone the GitHub repo.
-- Run `npm install` at the level of the `package.json` file to install dependencies.
-- Run `npm start`.
-- The `.env.development` file should include: `REACT_APP_API_URL=http://localhost:3900/api`.
 
 ### For the backend:
 
