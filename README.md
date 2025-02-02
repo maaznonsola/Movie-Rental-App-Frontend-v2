@@ -25,6 +25,78 @@ This version of the application does not focus on or include:
 
 The [backend Node/Express application](https://github.com/maaznonsola/Movie-Rental-App-Backend) can also be viewed on GitHub.
 
+# Project Dependencies
+
+## Frontend Libraries
+
+### 1. [react](https://reactjs.org/) & [react-dom](https://reactjs.org/docs/react-dom.html)
+
+The fundamental libraries for building user interfaces with a component-based architecture. **React** focuses on rendering UI, while **React-DOM** handles DOM-specific rendering.
+
+---
+
+### 2. [react-router-dom](https://reactrouter.com/)
+
+A library for managing routing in React applications. It enables smooth navigation between pages, dynamic routes, and browser history handling.
+
+---
+
+### 3. [bootstrap-css-only](https://getbootstrap.com/)
+
+Provides the core CSS for Bootstrap without JavaScript components. Ideal for lightweight projects where only styling is required.
+
+---
+
+### 4. [react-toastify](https://fkhadra.github.io/react-toastify/)
+
+A library for displaying customizable toast notifications in React applications.
+
+---
+
+## Form Validation
+
+### 5. [joi-browser](https://github.com/jeffbski/joi-browser) & [joi-password-complexity](https://www.npmjs.com/package/joi-password-complexity)
+
+**Joi-browser** enables schema-based validation in the browser, while **joi-password-complexity** extends validation for secure password policies.
+
+---
+
+## Utilities
+
+### 6. [axios](https://axios-http.com/)
+
+A promise-based HTTP client for the browser and Node.js. It simplifies making API requests and handling responses.
+
+---
+
+### 7. [lodash](https://lodash.com/)
+
+A utility library for simplifying common tasks such as working with arrays, objects, and strings.
+
+---
+
+### 8. [prop-types](https://www.npmjs.com/package/prop-types)
+
+A runtime type-checking library for React props, ensuring components receive the correct data types.
+
+---
+
+## Authentication and Security
+
+### 9. [jwt-decode](https://github.com/auth0/jwt-decode)
+
+A small library that helps decode JSON Web Tokens (JWT) without verifying the signature. Useful for extracting token information on the client side.
+
+---
+
+## Monitoring and Error Tracking
+
+### 10. [@sentry/react](https://www.npmjs.com/package/@sentry/react) & [@sentry/tracing](https://www.npmjs.com/package/@sentry/tracing)
+
+**@sentry/react** is used for error monitoring in React applications, while **@sentry/tracing** adds performance monitoring capabilities.
+
+---
+
 ## Application Context Overview
 
 The mock context for this application was a movie rental shop.
